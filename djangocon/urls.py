@@ -12,8 +12,8 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     # Examples:
-    url(r'^$', 'app.views.home', name='home'),
-    url(r'^anotherpage/', 'app.views.anotherpage', name='anotherpage'),
+    url(r'^$', include('app.views.home'), name='home'),
+    url(r'^anotherpage/', include('app.views.anotherpage'), name='anotherpage'),
     # url(r'^additional_resources/', 'app.views.additional_resources', name='additional_resources'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
