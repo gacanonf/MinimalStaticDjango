@@ -9,7 +9,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = (
-    'localhost', u'for2089tud.azurewebsites.net',
+    'localhost', 'for2089tud.azurewebsites.net',
 )
 
 ADMINS = (
